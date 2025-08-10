@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">Question text</string>
+    <string name="question_australia">Canberra is the capital of Australia</string>
+    <string name="question_oceans">There are five oceans on Earth</string>
+    <string name="question_mars">Mars is the fourth planet from the Sun</string>
+    <string name="question_earth">Earth is the third planet from the Sun</string>
+    <string name="question_moon">The Moon is a planet</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
 </resources>
