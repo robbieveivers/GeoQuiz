@@ -47,4 +47,30 @@
         android:drawablePadding="4dp"
         android:text="@string/next_button"
         android:layout_gravity="bottom|end"/>
+
+    <Button
+        android:id="@+id/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/arrow_left"
+        android:drawablePadding="4dp"
+        android:text="@string/prev_button"
+        android:layout_gravity="bottom|start"/>
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text=""
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:layout_gravity="bottom|center_horizontal"
+        android:visibility="gone" />
 </FrameLayout>
